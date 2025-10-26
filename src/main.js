@@ -1,5 +1,5 @@
 import './style.css';
-import { App } from './store/todos/app';
+import { App } from './todos/app';
 
 
 App('#app');

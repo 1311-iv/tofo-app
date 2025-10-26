@@ -1,4 +1,5 @@
 import html from './app.html?raw';
+import '../store/todo.store.js';
 /**
  * 
  * @param {String} elementId 
