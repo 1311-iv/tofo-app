@@ -70,6 +70,12 @@ const saveStorage = () => {
     throw new Error('Function not implemented.');
 }
 
+// Ejecutar inmediatamente al cargar
+initStore();
+
+// Exportar el state para debugging
+export { state };
+
 export default {
     initStore,
     addTodo,
